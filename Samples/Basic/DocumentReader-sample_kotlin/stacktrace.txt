@@ -1,0 +1,215 @@
+
+07/19 10:50:43: Launching 'app' on samsung SM-G950F.
+Install successfully finished in 41 s 49 ms.
+$ adb shell am start -n "com.regula.documentreader/com.regula.documentreader.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+Connected to process 28696 on device 'samsung-sm_g950f-ce0617160c53d62a01'.
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+D/vndksupport: Loading /vendor/lib64/egl/libGLES_mali.so from current namespace instead of sphal namespace.
+D/libEGL: loaded /vendor/lib64/egl/libGLES_mali.so
+W/.documentreade: Accessing hidden method Landroid/view/View;->getAccessibilityDelegate()Landroid/view/View$AccessibilityDelegate; (light greylist, linking)
+I/DecorView: createDecorCaptionView >> DecorView@6b953a0[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: true
+W/.documentreade: Accessing hidden method Landroid/text/SpannableStringInternal;->length()I (light greylist, linking)
+D/Dialog: mIsSamsungBasicInteraction = false
+    mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+W/.documentreade: Accessing hidden method Landroid/graphics/drawable/Drawable;->getOpticalInsets()Landroid/graphics/Insets; (light greylist, linking)
+    Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+    Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+    Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+    Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+I/DecorView: createDecorCaptionView >> DecorView@28c5e2c[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+W/.documentreade: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+W/.documentreade: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+D/ScrollView: initGoToTop
+D/OpenGLRenderer: Skia GL Pipeline
+D/EmergencyMode: [EmergencyManager] android createPackageContext successful
+D/InputTransport: Input channel constructed: fd=62
+D/ViewRootImpl@f9ee8f4[MainActivity]: setView = DecorView@28c5e2c[MainActivity] TM=true MM=false
+D/NativeWrapper: Native wrapper created v.5.6.5105
+D/InputTransport: Input channel constructed: fd=66
+D/ViewRootImpl@42a628c[MainActivity]: setView = DecorView@6b953a0[MainActivity] TM=true MM=false
+D/ViewRootImpl@f9ee8f4[MainActivity]: dispatchAttachedToWindow
+W/.documentreade: Accessing hidden field Landroid/view/WindowInsets;->CONSUMED:Landroid/view/WindowInsets; (light greylist, reflection)
+W/.documentreade: Accessing hidden method Landroid/view/View;->getViewRootImpl()Landroid/view/ViewRootImpl; (light greylist, reflection)
+    Accessing hidden field Landroid/view/View$AttachInfo;->mVisibleInsets:Landroid/graphics/Rect; (light greylist, reflection)
+    Accessing hidden field Landroid/view/ViewRootImpl;->mAttachInfo:Landroid/view/View$AttachInfo; (light greylist, reflection)
+W/.documentreade: Accessing hidden method Landroid/graphics/Insets;->of(IIII)Landroid/graphics/Insets; (light greylist, linking)
+D/ViewRootImpl@f9ee8f4[MainActivity]: Relayout returned: old=[0,72][1080,2175] new=[27,690][1053,1529] result=0x7 surface={valid=true 477627076608} changed=true
+I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+    android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 2
+D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+D/OpenGLRenderer: eglCreateWindowSurface = 0x6f2e79e900, 0x6f34cad010
+D/ViewRootImpl@42a628c[MainActivity]: dispatchAttachedToWindow
+W/.documentreade: Accessing hidden field Landroid/os/Trace;->TRACE_TAG_APP:J (light greylist, reflection)
+    Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (light greylist, reflection)
+    Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (light greylist, reflection)
+    Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (light greylist, reflection)
+    Accessing hidden method Landroid/os/Trace;->traceCounter(JLjava/lang/String;I)V (light greylist, reflection)
+D/ViewRootImpl@42a628c[MainActivity]: Relayout returned: old=[0,0][1080,2220] new=[0,0][1080,2220] result=0x7 surface={valid=true 477516595200} changed=true
+I/.documentreade: Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+D/OpenGLRenderer: eglCreateWindowSurface = 0x6f2e79e980, 0x6f2e350010
+W/.documentreade: Accessing hidden field Landroid/view/View;->mAccessibilityDelegate:Landroid/view/View$AccessibilityDelegate; (light greylist, reflection)
+D/ViewRootImpl@f9ee8f4[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+D/vndksupport: Loading /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+D/ViewRootImpl@f9ee8f4[MainActivity]: MSG_RESIZED: frame=Rect(27, 690 - 1053, 1529) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=1
+D/ViewRootImpl@42a628c[MainActivity]: MSG_RESIZED: frame=Rect(0, 0 - 1080, 2220) ci=Rect(0, 72 - 0, 45) vi=Rect(0, 72 - 0, 45) or=1
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+D/TcpOptimizer: TcpOptimizer-ON
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+    (HTTPLog)-Static: isSBSettingEnabled false
+W/.documentreade: Attempt to remove non-JNI local reference, dumping thread
+W/libEGL: EGLNativeWindowType 0x6f34cad010 disconnect failed
+D/OpenGLRenderer: eglDestroySurface = 0x6f2e79e900, 0x6f34cad000
+D/ViewRootImpl@f9ee8f4[MainActivity]: dispatchDetachedFromWindow
+    Surface release. android.view.ViewRootImpl.doDie:7976 android.view.ViewRootImpl.die:7944 android.view.WindowManagerGlobal.removeViewLocked:497 android.view.WindowManagerGlobal.removeView:435 android.view.WindowManagerImpl.removeViewImmediate:124 android.app.Dialog.dismissDialog:518 android.app.Dialog.dismiss:501 androidx.appcompat.app.AppCompatDialog.dismiss:140
+D/InputTransport: Input channel destroyed: fd=62
+D/ViewRootImpl@42a628c[MainActivity]: Relayout returned: old=[0,0][1080,2220] new=[0,0][1080,2220] result=0x1 surface={valid=true 477516595200} changed=false
+D/ViewRootImpl@42a628c[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+D/InputMethodManager: prepareNavigationBarInfo() DecorView@6b953a0[MainActivity]
+    getNavigationBarColor() -855310
+D/InputMethodManager: prepareNavigationBarInfo() DecorView@6b953a0[MainActivity]
+    getNavigationBarColor() -855310
+V/InputMethodManager: Starting input: tba=com.regula.documentreader ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+D/InputMethodManager: startInputInner - Id : 0
+I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+E/ViewRootImpl: sendUserActionEvent() returned.
+D/InputTransport: Input channel constructed: fd=73
+D/InputMethodManager: prepareNavigationBarInfo() DecorView@6b953a0[MainActivity]
+D/InputMethodManager: getNavigationBarColor() -855310
+V/InputMethodManager: Starting input: tba=com.regula.documentreader ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+D/InputMethodManager: startInputInner - Id : 0
+D/ViewRootImpl@42a628c[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+D/InputMethodManager: prepareNavigationBarInfo() DecorView@6b953a0[MainActivity]
+    getNavigationBarColor() -855310
+D/ViewRootImpl@42a628c[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+D/InputMethodManager: prepareNavigationBarInfo() DecorView@6b953a0[MainActivity]
+    getNavigationBarColor() -855310
+D/ViewRootImpl@42a628c[MainActivity]: setWindowStopped(false) old=false
+D/ViewRootImpl@42a628c[MainActivity]: ViewPostIme pointer 0
+D/ViewRootImpl@42a628c[MainActivity]: ViewPostIme pointer 1
+W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@bd22c3b
+D/ViewRootImpl@42a628c[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+D/InputMethodManager: prepareNavigationBarInfo() DecorView@6b953a0[MainActivity]
+    getNavigationBarColor() -855310
+I/DecorView: createDecorCaptionView >> DecorView@54ab904[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: true
+W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@3c6170
+I/DecorView: createDecorCaptionView >> DecorView@79fad5d[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: true
+W/DynamiteModule: Local module descriptor class for com.google.android.gms.vision.dynamite.face not found.
+I/DynamiteModule: Considering local module com.google.android.gms.vision.dynamite.face:0 and remote module com.google.android.gms.vision.dynamite.face:0
+D/FaceNativeHandle: Cannot load feature, fall back to load whole module.
+W/DynamiteModule: Local module descriptor class for com.google.android.gms.vision.dynamite not found.
+W/.documentreade: Unsupported class loader
+W/.documentreade: Skipping duplicate class check due to unsupported classloader
+I/DynamiteModule: Considering local module com.google.android.gms.vision.dynamite:0 and remote module com.google.android.gms.vision.dynamite:2703
+    Selected remote version of com.google.android.gms.vision.dynamite, version >= 2703
+V/DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+W/.documentreade: Unknown chunk type '200'.
+W/.documentreade: Unsupported class loader
+W/DynamiteModule: Local module descriptor class for com.google.android.gms.vision.dynamite.face not found.
+I/DynamiteModule: Considering local module com.google.android.gms.vision.face:0 and remote module com.google.android.gms.vision.face:1
+    Selected remote version of com.google.android.gms.vision.face, version >= 1
+W/.documentreade: Unsupported class loader
+W/.documentreade: Accessing hidden field Ljava/nio/Buffer;->address:J (light greylist, reflection)
+I/native: I0719 10:51:47.859200   28696 face_detector_v2_jni.cc:33] Loading models/fssd_25_8bit_v1.tflite
+I/native: I0719 10:51:47.866115   28696 face_detector_v2_jni.cc:33] Loading models/fssd_25_8bit_gray_v1.tflite
+I/native: I0719 10:51:47.872279   28696 face_detector_v2_jni.cc:33] Loading models/LMprec_600.emd
+I/native: I0719 10:51:47.885623   28696 face_detector_v2_jni.cc:33] Loading models/BCLlefteyeclosed_200.emd
+    I0719 10:51:47.885849   28696 face_detector_v2_jni.cc:33] Loading models/BCLrighteyeclosed_200.emd
+I/native: I0719 10:51:47.886006   28696 face_detector_v2_jni.cc:33] Loading models/BCLjoy_200.emd
+    I0719 10:51:47.886239   28696 face_detector_v2_jni.cc:33] Loading models/MFT_fssd_fastgray.pb
+    I0719 10:51:47.886325   28696 face_detector_v2_jni.cc:33] Loading models/contours.tfl
+I/native: I0719 10:51:47.889981   28696 face_detector_v2_jni.cc:33] Loading models/blazeface.tfl
+I/tflite: Initialized TensorFlow Lite runtime.
+D/SensorManager: registerListener :: 6, LSM6DSL Acceleration Sensor, 200000, 0,
+D/SensorManager: registerListener :: 6, LSM6DSL Acceleration Sensor, 66667, 0,
+E/Camera_APM :: [APM]APM's Thread is started
+E/Camera_APM :: [APM] This app is forground app
+D/InputTransport: Input channel constructed: fd=98
+D/ViewRootImpl@cf07f1d[CaptureActivity3]: setView = DecorView@79fad5d[CaptureActivity3] TM=true MM=false
+D/SensorManager: unregisterListener :: 6, LSM6DSL Acceleration Sensor,
+D/StrictMode: StrictMode policy violation; ~duration=674 ms: android.os.strictmode.CustomViolation: gcore.dynamite
+        at android.os.StrictMode$AndroidBlockGuardPolicy.onCustomSlowCall(StrictMode.java:1471)
+        at android.os.StrictMode.noteSlowCall(StrictMode.java:2324)
+        at wey.a(:com.google.android.gms@212418030@21.24.18 (100408-383468479):0)
+        at com.google.android.gms.chimera.container.GmsModuleChimeraProvider.query(:com.google.android.gms@212418030@21.24.18 (100408-383468479):10)
+        at tne.query(:com.google.android.gms@212418030@21.24.18 (100408-383468479):3)
+        at android.content.ContentProvider.query(ContentProvider.java:1078)
+        at edy.superQuery(:com.google.android.gms@212418030@21.24.18 (100408-383468479):2)
+        at com.google.android.chimera.ContentProvider.query(:com.google.android.gms@212418030@21.24.18 (100408-383468479):2)
+        at tne.query(:com.google.android.gms@212418030@21.24.18 (100408-383468479):8)
+        at android.content.ContentProvider.query(ContentProvider.java:1170)
+        at edy.superQuery(:com.google.android.gms@212418030@21.24.18 (100408-383468479):1)
+        at com.google.android.chimera.ContentProvider.query(:com.google.android.gms@212418030@21.24.18 (100408-383468479):1)
+        at edy.query(:com.google.android.gms@212418030@21.24.18 (100408-383468479):2)
+        at android.content.ContentProvider$Transport.query(ContentProvider.java:241)
+        at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:102)
+        at android.os.Binder.execTransact(Binder.java:739)
+    # via Binder call with stack:
+        at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:2131)
+        at android.os.Parcel.readExceptionCode(Parcel.java:1912)
+        at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:132)
+        at android.content.ContentProviderProxy.query(ContentProviderNative.java:418)
+        at android.content.ContentResolver.query(ContentResolver.java:809)
+        at android.content.ContentResolver.query(ContentResolver.java:759)
+        at android.content.ContentResolver.query(ContentResolver.java:717)
+        at com.google.android.gms.dynamite.DynamiteModule.zzc(Unknown Source:122)
+        at com.google.android.gms.dynamite.DynamiteModule.zza(Unknown Source:77)
+        at com.google.android.gms.dynamite.zza.zza(Unknown Source:2)
+        at com.google.android.gms.dynamite.zzf.zza(Unknown Source:4)
+        at com.google.android.gms.dynamite.DynamiteModule.load(Unknown Source:5)
+        at com.google.android.gms.internal.vision.zzm.zzq(Unknown Source:23)
+        at com.google.android.gms.vision.face.internal.client.zzc.<init>(Unknown Source:3)
+        at com.google.android.gms.vision.face.FaceDetector$Builder.build(Unknown Source:40)
+        at com.regula.documentreader.api.utils.RegFaceDetector.<init>(RegFaceDetector.java:29)
+        at com.regula.documentreader.api.CaptureActivity3.onCreate(CaptureActivity3.java:212)
+        at android.app.Activity.performCreate(Activity.java:7327)
+        at android.app.Activity.performCreate(Activity.java:7318)
+        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1271)
+        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3094)
+        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3257)
+        at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:78)
+        at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:108)
+        at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:68)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1948)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:214)
+        at android.app.ActivityThread.main(ActivityThread.java:7050)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:965)
+D/AndroidRuntime: Shutting down VM
+E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.regula.documentreader, PID: 28696
+    java.lang.RuntimeException: StrictMode ThreadPolicy violation
+        at android.os.StrictMode$AndroidBlockGuardPolicy.onThreadPolicyViolation(StrictMode.java:1705)
+        at android.os.StrictMode$AndroidBlockGuardPolicy.lambda$handleViolationWithTimingAttempt$0(StrictMode.java:1619)
+        at android.os.-$$Lambda$StrictMode$AndroidBlockGuardPolicy$9nBulCQKaMajrWr41SB7f7YRT1I.run(Unknown Source:6)
+        at android.os.Handler.handleCallback(Handler.java:873)
+        at android.os.Handler.dispatchMessage(Handler.java:99)
+        at android.os.Looper.loop(Looper.java:214)
+        at android.app.ActivityThread.main(ActivityThread.java:7050)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:965)
+     Caused by: android.os.strictmode.CustomViolation: gcore.dynamite
+        at android.os.StrictMode$AndroidBlockGuardPolicy.onCustomSlowCall(StrictMode.java:1471)
+        at android.os.StrictMode.noteSlowCall(StrictMode.java:2324)
+        at wey.a(:com.google.android.gms@212418030@21.24.18 (100408-383468479):0)
+        at com.google.android.gms.chimera.container.GmsModuleChimeraProvider.query(:com.google.android.gms@212418030@21.24.18 (100408-383468479):10)
+        at tne.query(:com.google.android.gms@212418030@21.24.18 (100408-383468479):3)
+        at android.content.ContentProvider.query(ContentProvider.java:1078)
+        at edy.superQuery(:com.google.android.gms@212418030@21.24.18 (100408-383468479):2)
+        at com.google.android.chimera.ContentProvider.query(:com.google.android.gms@212418030@21.24.18 (100408-383468479):2)
+        at tne.query(:com.google.android.gms@212418030@21.24.18 (100408-383468479):8)
+        at android.content.ContentProvider.query(ContentProvider.java:1170)
+        at edy.superQuery(:com.google.android.gms@212418030@21.24.18 (100408-383468479):1)
+        at com.google.android.chimera.ContentProvider.query(:com.google.android.gms@212418030@21.24.18 (100408-383468479):1)
+        at edy.query(:com.google.android.gms@212418030@21.24.18 (100408-383468479):2)
+        at android.content.ContentProvider$Transport.query(ContentProvider.java:241)
+        at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:102)
+        at android.os.Binder.execTransact(Binder.java:739)
+I/Process: Sending signal. PID: 28696 SIG: 9
